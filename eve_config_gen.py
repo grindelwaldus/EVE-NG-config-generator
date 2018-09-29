@@ -4,7 +4,7 @@ xml_file = argv[1]
 
 #parsing xml
 import xml.etree.ElementTree as etree
-tree = etree.parse('xml_file.txt')
+tree = etree.parse('xml_file')
 all_nodes_xml = tree.findall('.//node')
 
 
