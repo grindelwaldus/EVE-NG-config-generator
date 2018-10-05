@@ -1,6 +1,6 @@
 # EVE-NG-config-generator
 
-This script creates a basic configuration for Cisco routers basing on EVE-NG topology map file (.unl file which you can export from every lab).
+This script creates a basic configuration for Cisco (IOS only right now) routers basing on EVE-NG topology map file (.unl file which you can export from every lab).
 
 I use EVE-NG a lot and there's always a bunch of little things you need to configure on every node to get things started, like hostnames, interfaces addresses, routing protocols etc.
 I always use similar naming and addressing scheme in every lab, so I thought it would be nice to automate this stuff a little.
